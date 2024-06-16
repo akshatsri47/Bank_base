@@ -42,3 +42,15 @@ This project is a Node.js API server that provides access to bank and branch dat
 ```bash
 git clone https://github.com/your-username/bank-api.git
 cd bank-api
+npm install
+```
+### 2.Setup the env
+**Update the env file according to the connection string and desired Port.**
+### 3. Run the Application
+```bash
+npm start
+```
+### To Run Test Cases
+```bash
+npm test
+```
