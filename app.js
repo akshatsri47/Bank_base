@@ -10,7 +10,7 @@ const PORT = process.env.PORT || 3000;
 
 app.use(express.json());
 
-// Test the database connection
+
 sequelize.authenticate()
   .then(() => {
     console.log('Connection to PostgreSQL has been established successfully.');
@@ -28,3 +28,5 @@ app.get('/', (req, res) => {
 app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`);
 });
+
+export default app;
