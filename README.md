@@ -56,6 +56,23 @@ npm start
 ```bash
 npm test
 ```
+### Using the Dockerfile
+
+### Building and Running the Docker Container
+
+To deploy and run the application using Docker, follow these steps:
+
+### Step 1: Build the Docker Image
+
+Navigate to the root directory of your project where the `Dockerfile` is located. Then, build the Docker image using the following command:
+
+```bash
+docker build -t bank-api .
+```
+### Step:1 Run the Docker Container
+```bash
+docker run -p 3000:3000 --env-file .env bank-api
+```
 ## Contributing
 
 Contributions are welcome! Please submit a pull request or open an issue for any changes or improvements.
