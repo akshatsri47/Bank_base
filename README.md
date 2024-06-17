@@ -1,6 +1,6 @@
 # Bank API Server
 
-This project is a Node.js API server that provides access to bank and branch data. The API supports REST endpoints to fetch a list of banks and their branch details. It is designed to interact with a PostgreSQL database.
+This project is a Node.js API server that provides access to bank and branch data. The API supports REST endpoints to fetch a list of banks and their branch details. It is designed to interact with a PostgreSQL database. Time taken to complete the assignment 1.5 hours
 
 The data can be found in this https://github.com/Amanskywalker/indian_banks
 
